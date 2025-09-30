@@ -38,6 +38,11 @@
                placeholder=" 123456789" 
                pattern="[0-9]{8,15}">
     </div>
+
+     <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </div>
     
 
 </template>
