@@ -75,7 +75,7 @@
         <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
     </div>
       <button type="submit">Enviar Registro</button>
-      
+
 
 </template>
 
@@ -84,5 +84,88 @@
 </script>
 
 <style>
+/* Contenedor general */
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
 
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Inputs y textarea */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #42b983;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(66, 185, 131, 0.5);
+}
+
+/* Fieldset */
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #fff;
+}
+
+legend {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Grupos de campos */
+.field-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.field-group div {
+  flex: 1;
+}
+
+/* Botón */
+.btn {
+  background: #42b983;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #2a9d6f;
+}
 </style>
