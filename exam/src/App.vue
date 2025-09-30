@@ -15,7 +15,7 @@
     <fieldset>
       <legend>Género:</legend>
       <label>
-        
+
         <input type="radio" id="femenino" name="genero" value="femenino">
         Femenino
       </label>
@@ -28,6 +28,7 @@
     <div>
       <label for="fechaNacimiento">Fecha de Nacimiento:</label>
       <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+      
     </div>
 
     <div>
