@@ -39,6 +39,37 @@
                pattern="[0-9]{8,15}">
     </div>
 
+
+     <fieldset class="address-group">
+        <legend>Dirección</legend>
+
+        <div class="field-group">
+            <div class="street-field">
+                <label for="calle">Calle:</label>
+                <input type="text" id="calle" name="calle" placeholder=" Calle Principal #123" required>
+            </div>
+            <div class="colonia-field">
+                <label for="colonia">Colonia:</label>
+                <input type="text" id="colonia" name="colonia" required>
+            </div>
+        </div>
+        
+        <div class="field-group">
+            <div>
+                <label for="ciudad">Municiopio:</label>
+                <input type="text" id="ciudad" name="ciudad" required>
+            </div>
+            <div>
+                <label for="estado">Departamento:</label>
+                <input type="text" id="estado" name="estado" required>
+            </div>
+            <div>
+                <label for="zip">Código Postal:</label>
+                <input type="text" id="zip" name="zip" required>
+            </div>
+        </div>
+    </fieldset>
+
      <div>
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
