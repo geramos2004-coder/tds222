@@ -18,6 +18,11 @@
         <input type="radio" id="masculino" name="genero" value="masculino">
         <label for="masculino">Masculino</label>
         
+  <div>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@dominio.com" required>
+    </div>
+
     </fieldset>
 
 </template>
