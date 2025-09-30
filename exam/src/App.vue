@@ -28,12 +28,13 @@
     <div>
       <label for="fechaNacimiento">Fecha de Nacimiento:</label>
       <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
-      
+
     </div>
 
     <div>
       <label for="email">Correo Electrónico:</label>
       <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+      
     </div>
 
     <div>
