@@ -34,12 +34,13 @@
     <div>
       <label for="email">Correo Electrónico:</label>
       <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
-      
+
     </div>
 
     <div>
       <label for="telefono">Teléfono:</label>
       <input type="tel" id="telefono" name="telefono" placeholder="123456789" pattern="[0-9]{8,15}">
+      
     </div>
 
     <fieldset class="address-group">
