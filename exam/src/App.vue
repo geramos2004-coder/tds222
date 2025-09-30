@@ -18,6 +18,15 @@
         <input type="radio" id="masculino" name="genero" value="masculino">
         <label for="masculino">Masculino</label>
         
+  
+    </fieldset>
+
+    <div>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+    </div>
+
+        
   <div>
         <label for="email">Correo Electrónico:</label>
         <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
@@ -29,7 +38,7 @@
                placeholder=" 123456789" 
                pattern="[0-9]{8,15}">
     </div>
-    </fieldset>
+    
 
 </template>
 
