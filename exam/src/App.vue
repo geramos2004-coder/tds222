@@ -74,7 +74,8 @@
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
     </div>
-    
+      <button type="submit">Enviar Registro</button>
+      
 
 </template>
 
