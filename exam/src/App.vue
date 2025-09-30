@@ -9,6 +9,17 @@
         <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
     </div>
 
+     <fieldset>
+        <legend>Género:</legend>
+        
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        
+    </fieldset>
+
 </template>
 
 <script>
